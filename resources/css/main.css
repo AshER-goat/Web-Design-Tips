@@ -367,6 +367,7 @@ footer a {
         width: 150px;
         height: auto;
     }
+    #headerFloatingDiv h4 {font-size: .8rem;}
     .wdh-main{
         margin-left:240px;
         margin-right:40px;
