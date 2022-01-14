@@ -132,9 +132,9 @@ header span {
 }
 
 #headerFloatingDiv h4 {
-    font-family: fancyFont;   
+    font-family: fancyFont; 
+    font-size: .8rem;
 }
-
 
 #headerFloatingDiv.rotate {
     transform: rotate(20deg); /* W3C */
