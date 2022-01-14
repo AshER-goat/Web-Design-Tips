@@ -105,7 +105,7 @@ nav .navLogo {font-size: 1.3125rem; /*21px*/}
 
 header .navLogo {
     font-size: 1.6875rem;/*27px*/
-    width: 40%;
+    width: 50%;
     margin-top: 0;
     padding: 5px 12px;
 }
@@ -333,7 +333,7 @@ footer a {
     .navbar-nav {display: inline-block;}
     header {margin-top: 30px;}
     header .navLogo {
-        width: 40%;
+        width: 60%;
         padding: 2px 8px;
     }
     #headerFloatingDiv {
@@ -363,7 +363,7 @@ footer a {
     .navbar-nav a {margin: 12px 4px;}
     header {margin-top: 50px;}
     header .navLogo {
-        width: 40%;
+        width: 50%;
         padding: 5px 12px;
     }
     #headerFloatingDiv {
