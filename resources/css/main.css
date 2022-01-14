@@ -1,0 +1,374 @@
+* {box-sizing: border-box}
+
+@font-face {
+    font-family: fancyFont;
+    src: url(C:/Users/Ashleigh/Desktop/Ash%20stuff/Not%20Art/Web_design_and_Game_design/Site%20Templates/Mock%20Websites/WebDesignTips/resources/fonts/AmaticSC-Bold.ttf);
+}
+
+html {font-size: 16px;}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0px 10px 0px;
+    font-style:italic;
+}
+
+h1 {
+    font-family: fancyFont;
+    font-size: 2.75rem;/*44px*/
+    letter-spacing: 4px;
+    font-style:italic;
+    font-weight: bolder;
+}
+
+h2 {font-size: 1.6875rem;}/*27px*/
+
+h3 {font-size: 1.5625rem;}/*25px*/
+
+h4 {font-size: 1.4375rem;}/*23px*/
+
+h5 {font-size: 1.3125rem;}/*21px*/
+
+h6 {font-size: 1.1875rem}/*19px*/
+
+h3, h4 {
+    padding: 10px;
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+}        
+
+p {
+    font-size: 1rem;/*16px*/         
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+hr { 
+    padding: 0;
+    border: none; 
+    border-top: 2px double white; 
+    color: white; 
+    text-align: center; 
+} 
+  
+hr:after { 
+    content: ":)"; 
+    display: inline-block; 
+    position: relative; 
+    top: -0.8em; 
+    font-size: 1em; 
+    padding: 0 0.25em; 
+    background: transparent; 
+}
+
+.wdh-main,#main{
+    transition:margin-left .4s;
+    margin-bottom: 0px;
+}
+
+nav {
+    height:100%;
+    width:200px;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto;
+}
+
+.navbar-nav {width: 100%;}
+
+.navbar-nav a {
+    font-family: fancyFont;
+    font-style:italic;
+    text-decoration: none;
+    font-size: 1.1875rem; /*19px*/
+    cursor: pointer;
+    margin: 12px 4px;
+}
+
+.navbar-nav a:hover {text-decoration:none;}
+
+.navLogo a {
+    font-family: fancyFont;
+    letter-spacing: 4px;
+    font-style:italic;
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+.navLogo a:hover {text-decoration: none;}
+
+nav .navLogo {font-size: 1.3125rem; /*21px*/}
+
+header .navLogo {
+    font-size: 1.6875rem;/*27px*/
+    width: 250px;
+    margin-top: 0;
+    padding: 5px 12px;
+}
+
+header {position: relative;}
+
+header span {
+    font-family: 'Times New Roman', serif;
+    font-style:italic;
+    font-size: 1.1875rem;/*19px*/
+}
+
+#headerFloatingDiv {
+    width: 150px;
+    height: auto;
+    top: -10px;
+    left: 70%;
+    position: absolute;
+    border: 3px dotted Khaki;
+    padding: 5px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+}
+
+#headerFloatingDiv h4 {
+    font-family: fancyFont;   
+}
+
+
+#headerFloatingDiv.rotate {
+    transform: rotate(20deg); /* W3C */
+    -webkit-transform: rotate(20deg); /* Safari & Chrome */
+    -moz-transform: rotate(20deg); /* Firefox */
+    -ms-transform: rotate(20deg); /* Internet Explorer */
+    -o-transform: rotate(20deg); /* Opera */
+}
+
+#navTabDiv {
+    height: 200px;
+    width: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.code p {
+    padding: .5rem; /*8px*/
+    font-size: .85rem;
+    font-weight: 600;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container {   
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    padding: 10px;
+    margin-bottom: 20px;     
+}
+
+.table {font-size: 1em;}
+
+/* MDN */
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+  
+.box {
+    flex-grow: 1;
+    border: 3px solid rgba(0,0,0,.2);
+}
+  
+.box1 {
+    flex-grow: 2;
+    border: 3px solid rgba(0,0,0,.2);
+}
+
+#contentb {
+    display: flex;
+    width: 500px;
+}
+  
+#contentb div {
+    flex-basis: 80px;
+    border: 3px solid rgba(0,0,0,.2);
+}
+  
+.boxb {
+    flex-shrink: 1;
+}
+  
+.box1b {
+    flex-shrink: 2;
+}
+
+/* END MDN */
+
+footer h6 {
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', serif;
+    font-weight: 950;
+}
+
+footer a {
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+    font-weight: initial;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.Arial {font-family: Arial, sans-serif;}
+.Arial p {letter-spacing: 4px;}
+.Helvetica {font-family: Helvetica, sans-serif;}
+.Helvetica p {letter-spacing: 4px;}
+.Trebuchet {font-family: 'Trebuchet MS', sans-serif;}
+.Trebuchet p {letter-spacing: 4px;}
+.Times {font-family: 'Times New Roman', serif;}
+.Times p {letter-spacing: 4px;}
+.Garamond {font-family: Garamond, serif;}
+.Garamond p {letter-spacing: 4px;}
+.Courier {font-family: 'Courier New', monospace;}
+.Courier p {letter-spacing: 4px;}
+.Brush {font-family: 'Brush Script MT', cursive;}
+.Brush p {letter-spacing: 4px;}
+.Comic {font-family: 'Comic Sans MS', serif;}
+.Comic p {letter-spacing: 4px;}
+
+#intro {
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    font-style:italic;
+    font-weight:lighter;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+#color_Types .row .col {padding: 2px;}
+
+.font_Schemes {
+    font-size: .75rem;
+    margin: auto;
+}
+
+#fonts p {overflow-wrap: break-word;}
+
+/* Landing Page */
+
+#bgImg {
+    background-image: url('C:/Users/Ashleigh/Desktop/Ash%20stuff/Not%20Art/Web_design_and_Game_design/Site%20Templates/Mock%20Websites/WebDesignTips/resources/images/my%20art%20logo.png');
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-repeat: repeat;
+    background-position: top;
+    background-size:auto;
+    overflow: hidden;
+}
+
+#container {
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexText {    
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.flexText a {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px black;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.tagline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+
+#homeFoot {
+    border-radius: unset;
+    border: unset;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END Landing Page */
+
+@media (max-width:975px){ /* MOBILE */
+    nav {
+        width: 100%;
+        height: auto;
+    }
+    .navbar-nav a {margin: inherit;}
+    nav a {
+        font-size: 1.125rem;
+    }
+    .navbar-nav {display: inline-block;}
+    header {margin-top: 30px;}
+    header .navLogo {
+        width: 200px;
+        padding: 5px 12px;
+    }
+    #headerFloatingDiv {
+        width: 100px;
+        height: auto;
+        top: -30px;
+        left: 75%;
+        padding: 2px;
+    }
+    #headerFloatingDiv h4 {font-size: 1.125rem;}
+    .wdh-main {
+        margin-left:10px!important;
+        margin-right:10px!important;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:976px){ /* DESKTOP */
+    nav{
+        display:block!important;
+        overflow-y: hidden;
+    }
+    .navbar-nav a {margin: 12px 4px;}
+    header {margin-top: 50px;}
+    header .navLogo {
+        width: 250px;
+        padding: 5px 12px;
+    }
+    #headerFloatingDiv {
+        width: 150px;
+        height: auto;
+    }
+    .wdh-main{
+        margin-left:240px;
+        margin-right:40px;
+    }
+}

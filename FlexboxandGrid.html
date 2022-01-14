@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flexbox</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\resources\css\colors.css">
+        <link rel="stylesheet" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\resources\css\main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/jpg" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\resources\images\Logo%20for%20ArtInvoices.jpg"/>
+    </head>
+    <body>
+
+        <!-- Page Content -->
+		<div class="wdh-main pt-3">
+            
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="navLogoBG mt-2">
+                    <div class="navLogo text-center" aria-label="site name Web Design Tips"><a href="#">Web Design Tips</a></div>
+                </div>
+                <button class="navbar-toggler navbar-dark" style="background-color: #0077b3;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <div class="navbar-nav d-inline justify-content-start">
+                            <hr />
+                            <a class="nav-link text-light" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Home.html">Home</a>
+                            <a class="nav-link text-warning" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Colors.html">Colors</a>
+                            <a class="pinkNav nav-link" style="color: #e83e8c" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\FlexboxandGrid.html">Flexbox and Grid</a>
+                            <a class="nav-link text-danger" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\GoodHabits.html">Good Habits</a>
+                            <a class="nav-link text-primary" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Templates.html">Templates</a>
+                            <a class="nav-link text-success" href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\TextFont.html">Text/Font</a>
+                            <hr />
+                            <a href="http://www.instagram.com/ash_369_art">
+                                <i class="fa fa-instagram" style="margin: 0 7px 7px 7px;color:#0077b3;" aria-label="instagram link"></i>
+                            </a>
+                            <a href="https://www.facebook.com/AshartAER">
+                                <i class="fa fa-facebook-official" style="margin: 0 7px 7px 7px;color:#0077b3;" aria-label="facebook link"></i>
+                            </a>
+                            <a href="https://www.deviantart.com/ashleigher-art">
+                                <i class="fa fa-deviantart" style="margin: 0 7px 7px 7px;color:#0077b3;" aria-label="deviant art link"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ashleigh-roberts-6a52b9191/">
+                                <img src="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\resources\images\LI-In-Bug.png" width="20px"  style="margin: 0 5px 5px 5px;"  aria-label="linked in link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <header class="container-fluid p-2">
+                <div class="d-flex justify-content-start">
+                    <img id="logo" class="p-3" src="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\resources\images\my%20art%20logo.png" alt="logo">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="navLogoBG">
+                            <div class="navLogo text-center" aria-label="site name Web Design Tips"><a href="#">Web Design Tips</a></div>
+                        </div>
+                        <span>a site for beginner front-end web developers</span>
+                    </div>
+                </div>
+                <div id="headerFloatingDiv" class="rotate"><h4 style="font-style:normal;" role="alert">UNDER CONSTRUCTION</h4></div>
+            </header>
+
+            <hr />
+
+            <div id="intro" class="my-4">
+                <h1>Flexbox and Grid</h1>
+                <h2>This page deals specifically with Flexbox and Grid - Two popular ways to organize a webpage</h2>            
+            </div>
+
+            <div class="container-fluid text-center p-2">
+                <div class="container">
+                    <h3>Flexbox selectors</h3>
+                </div>
+                <div class="container">
+                    <h4>Flex containers have two axes: a main axis and a cross axis. By default, the main axis is horizontal and the cross axis is vertical.</h4>
+				    <p>The main axis is used to position flex items with the following properties:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">justify-content</li>
+                        <li class="list-group-item">flex-wrap</li>
+                        <li class="list-group-item">flex-grow</li>
+                        <li class="list-group-item">flex-shrink</li>
+                    </ul>
+                    <p>The cross axis is used to position flex items with the following properties:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">align-items</li>
+                        <li class="list-group-item">align-content</li>
+                    </ul>
+                    <br />
+				    <ul class="list-group text-left">
+                        <li class="list-group-item"><em>display</em>: flex changes an element to a block-level container with flex items inside of it.</li>
+                        <li class="list-group-item"><em>display</em>: inline-flex allows multiple flex containers to appear inline with each other.</li>
+                        <li class="list-group-item"><em>justify-content</em> is used to space items along the main axis.</li>
+                        <li class="list-group-item"><em>align-items</em> is used to space items along the cross axis.</li>
+                        <li class="list-group-item"><em>flex-grow</em> is used to specify how much space (and in what proportions) flex items absorb along the main axis.</li>
+                        <li class="list-group-item"><em>flex-shrink</em> is used to specify how much flex items shrink and in what proportions along the main axis.</li>
+                        <li class="list-group-item"><em>flex-basis</em> is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.</li>
+                        <li class="list-group-item"><em>flex</em> is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.</li>
+                        <li class="list-group-item"><em>flex-wrap</em> specifies that elements should shift along the cross axis if the flex container is not large enough.</li>
+                        <li class="list-group-item"><em>align-content</em> is used to space rows along the cross axis.</li>
+                        <li class="list-group-item"><em>flex-direction</em> is used to specify the main and cross axes.</li>
+                        <li class="list-group-item"><em>flex-flow</em> is used to specify flex-wrap and flex-direction in one declaration.</li>
+                        <li class="list-group-item"><em>Flex containers</em> can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-fluid text-center p-2">
+                <div class="container">
+                    <h4>justify-content</h4>
+                </div>
+                <ul class="list-group">
+                    <list class="list-group-item"></list>
+                </ul>
+            </div>
+
+            <div class="container-fluid text-center p-2">
+                <div class="container">
+                    <h4>align-items</h4>
+                </div>
+                <ul class="list-group">
+                    <list class="list-group-item"></list>
+                </ul>
+            </div> 
+            
+            <div class="container-fluid text-center p-2">
+                <div class="container">
+                    <h4>flex-grow / flex-shrink</h4>
+                </div>
+                <div class="container border border-2 border-primary">
+                    <div class="d-flex justify-content-end mr-2"><span class="h3 text-primary">&ast;</span></div>
+                    <h5>This is a Flex-Grow</h5>
+                    <p>A,B,C and F are flex-grow:1 . D and E are flex-grow:2 .</p>
+                    <div id="content">
+                      <div class="box" style="background-color:red;">A</div>
+                      <div class="box" style="background-color:lightblue;">B</div>
+                      <div class="box" style="background-color:yellow;">C</div>
+                      <div class="box1" style="background-color:brown;">D</div>
+                      <div class="box1" style="background-color:lightgreen;">E</div>
+                      <div class="box" style="background-color:brown;">F</div>
+                    </div>
+                    <h5>This is a Flex-Shrink</h5>
+                    <p>The width of content is 500px; the flex-basis of the flex items is 80px.</p>
+                    <p>A, B, C have flex-shrink:1 set. D and E have flex-shrink:2 set</p>
+                    <p>The width of D and E is less than the others.</p>
+                    <div id="contentb">
+                      <div class="boxb" style="background-color:red;">A</div>
+                      <div class="boxb" style="background-color:lightblue;">B</div>
+                      <div class="boxb" style="background-color:yellow;">C</div>
+                      <div class="box1b" style="background-color:brown;">D</div>
+                      <div class="box1b" style="background-color:lightgreen;">E</div>
+                    </div>
+                </div>
+                <br />
+                <small></small><span class="text-primary">&ast;Courtesy of MDN Web Docs</span></small>
+            </div>  
+
+            <!-- flex-basis -->
+
+            <!-- flex shorthand -->
+
+            <!-- flex-wrap -->
+
+            <!-- align-content -->
+
+            <!-- flex-direction -->
+
+            <!-- flex-flow -->
+
+            <!-- Nested Flexboxes -->
+
+        <hr />
+
+        <footer class="container-fluid px-5 pt-2 mb-0">
+            <div class="row d-flex justify-content-around mb-2">
+                <div class="col d-flex flex-column">
+                    <h6>Pages</h6>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Home.html">Home</a>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Colors.html">Colors</a>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\FlexboxandGrid.html">Flexbox and Grid</a>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\GoodHabits.html">Good Habits</a>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Templates.html">Templates</a>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\TextFont.html">Text/Font</a>
+                </div>
+                <div class="col d-flex flex-column">
+                    <h6>Social Media</h6>
+                    <a href="http://www.instagram.com/ash_369_art">Instagram</a>
+                    <a href="https://www.facebook.com/AshartAER">Facebook</a>
+                    <a href="https://www.deviantart.com/ashleigher-art">Deviant Art</a>
+                    <a href="https://www.linkedin.com/in/ashleigh-roberts-6a52b9191/">Linkedin</a>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-around my-4">
+                <div class="col d-flex flex-column">
+                    <h6>About</h6>
+                    <a href="C:\Users\Ashleigh\Desktop\Ash%20stuff\Not%20Art\Web_design_and_Game_design\Site%20Templates\Mock%20Websites\WebDesignTips\Home.html">Home</a>
+                    <a href="https://nerdeebirdee.com/CV/AshER_CV">The Web Designer</a>
+                </div>
+                <div class="col d-flex flex-column">
+                    <h6>Sources</h6>
+                    <a href="https://www.codecademy.com/catalog">codecademy.com</a>
+                    <a href="https://developer.mozilla.org/en-US/">developer.mozilla.org</a>
+                    <a href="https://www.w3schools.com/">w3schools.com</a>
+                    <a href="https://getbootstrap.com/">getbootstrap.com</a>
+                    <a href="https://color.adobe.com/create/color-wheel">color.adobe.com</a>
+                </div>
+            </div>
+            <hr />
+            <div class="row mb-0">
+                <p class="text-center" style="color: white;letter-spacing: 5px;">&copy;2021 Designed by Ashleigh Roberts</p>
+            </div>
+        </footer>
+            
+        </div><!--END Page Content-->      
+    </body>
+</html>

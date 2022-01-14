@@ -1,0 +1,180 @@
+body {background:  #b30000;}
+
+h1 {
+    color: white;
+    text-shadow: 2px 1px black; 
+}
+
+p, li {color: Black;}
+
+a:link {color: lightgrey;}
+
+a:visited {color: lightgrey;}
+
+a:hover {color: grey;}
+
+a:active {color: WhiteSmoke;}
+
+nav {
+    background-color: black;
+    border-color: #00cccc;
+}
+
+.navbar-nav a {color: lightgray;}
+
+nav a:hover {color: white;}
+
+nav .navLogo {border: 1px solid white;}
+
+header .navLogo {border: 1px solid black;}
+
+.navLogo a {
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
+.navLogoBG div {background-image: linear-gradient(90deg, white 0,khaki 12.5%, #f0ad4e 25%, #ff33cc 37.5%, #d9534f 50%, #0275d8 62.5%, #5bc0de  75%,#5cb85c 87.5%, #292b2c 100%);}
+
+.navLogoBG div:hover {background-image: linear-gradient(90deg, #f2f2f2 0, #eadd61 12.5%, #ed9c2c 25%, #ff00bf 37.5%, #d1332e 50%, #025fb1 62.5%, #41b5d8 75%,#46a046 87.5%, #181a1b 100%);}
+
+.navLogo span {
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+.pinkNav:hover {
+    color: #ff33cc;
+    opacity: 0.75
+}
+
+#navTabDiv {
+    background-color: khaki;
+    border: 1px solid black;
+}
+
+.nav-tabs a {color: black;}
+
+.nav-tabs a:hover {background-color: #eadc62;}
+
+mark {background-color: lightsteelblue;}
+
+.font_Schemes + hr { 
+    border-top: 2px double black; 
+    color: black; 
+} 
+
+#intro {color: White;}
+
+#color_Types .row {background-color: White;}
+#color_Types .row .col {border: 1px solid hsl(0, 0%, 10%);}
+
+.code p {
+    color: darkgrey;
+    background-color: White;
+}
+
+.container-fluid {
+    background-color: white;
+    border: 1px solid #00cccc;
+}
+
+footer {background-color: black!important;}
+
+footer h6 {color: white;}
+
+footer a:link {color: lightgrey;}
+
+footer a:visited {color: lightgrey;}
+
+footer a:hover {color: grey;}
+
+footer a:active {color: whitesmoke;}
+
+#color_Types .row {border: 1px solid Black;}
+
+#color_Types .row .col {border: 1px solid Black;}
+
+.warm-color1 {background-color: hsla(8, 100%, 50%, 1);}
+.warm-color2 {background-color: hsla(15, 100%, 50%, 1);}
+.warm-color3 {background-color: hsla(30, 100%, 50%, 1);}
+.warm-color4 {background-color: hsla(45, 100%, 50%, 1);}
+.warm-color5 {background-color: hsla(60, 100%, 50%, 1);}
+.cool-color1 {background-color: hsla(280, 100%, 50%, 1);}
+.cool-color2 {background-color: hsla(260, 100%, 50%, 1);}
+.cool-color3 {background-color: hsla(240, 100%, 50%, 1);}
+.cool-color4 {background-color: hsla(190, 100%, 50%, 1);}
+.cool-color5 {background-color: hsla(160, 100%, 50%, 1);}  
+.tintshade-color1 {background-color: hsla(240, 100%, 30%, 1);}
+.tintshade-color2 {background-color: hsla(240, 100%, 45%, 1);}
+.tintshade-color3 {background-color: hsla(240, 100%, 55%, 1);}
+.tintshade-color4 {background-color: hsla(240, 100%, 65%, 1);}
+.tintshade-color5 {background-color: hsla(240, 100%, 75%, 1);}         
+
+.LRed {background-color: hsl(0, 100%, 75%);}
+.Red {background-color: hsl(0, 100%, 50%);}
+.DarkRed {background-color: hsl(0, 100%, 25%);}
+
+.LOrange {background-color: hsl(39, 100%, 75%);}
+.Orange {background-color: hsl(39, 100%, 50%);}
+.DarkOrange {background-color: hsl(39, 100%, 25%);} 
+
+.LBrown {background-color: hsl(0, 59%, 66%);}
+.Brown {background-color: hsl(0, 59%, 41%); }
+.DarkBrown {background-color: hsl(0, 59%, 20%);} 
+
+.LYellow {background-color: hsl(60, 100%, 75%);}
+.Yellow {background-color: hsl(60, 100%, 50%); }
+.DarkYellow {background-color: hsl(60, 100%, 25%);} 
+
+.LGreen {background-color: hsl(120, 100%, 50%);}
+.Green {background-color: hsl(120, 100%, 25%);}
+.DarkGreen {background-color: hsl(120, 100%, 15%);}
+
+.LBlue {background-color: hsl(240, 100%, 75%);}
+.Blue {background-color: hsl(240, 100%, 50%); }   
+.DarkBlue {background-color: hsl(240, 100%, 25%);}   
+
+.LPurple {background-color: hsl(300, 100%, 50%);}
+.Purple {background-color: hsl(300, 100%, 25%);}   
+.DarkPurple {background-color: hsl(300, 100%, 15%);}   
+
+.LPink {background-color: hsl(350, 100%, 100%);}
+.Pink {background-color:hsl(350, 100%, 88%);}
+.DarkPink {background-color:hsl(350, 100%, 63%);}    
+
+.White {background-color: hsl(0, 0%, 100%);}  
+
+.Black {background-color: hsl(0, 0%, 0%);}
+
+.LGrey {background-color: hsl(0, 0%, 75%);}
+.Grey {background-color: hsl(0, 0%, 50%);}   
+.DarkGrey {background-color: hsl(0, 0%, 25%);}   
+
+.flexText {background-color: rgba(80, 0, 80, 0.5);}
+
+.flexText a {color: white;}
+
+.flexText a:hover {
+    color: rgb(214, 51, 192);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.tagline {color: royalblue;}
+
+#homeFoot {background-color: black;}
+
+@media (max-width:975px){
+    nav {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #0D806E;
+    }
+}
+
+@media (min-width:976px){
+    nav{
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color:#0D806E;
+    }
+}
