@@ -343,7 +343,7 @@ footer a {
         left: 75%;
         padding: 2px;
     }
-    #headerFloatingDiv h4 {font-size: 1.125rem;}
+    #headerFloatingDiv h4 {font-size: .8rem;}
     .wdh-main {
         margin-left:10px!important;
         margin-right:10px!important;
@@ -367,7 +367,7 @@ footer a {
         width: 150px;
         height: auto;
     }
-    #headerFloatingDiv h4 {font-size: .8rem;}
+    #headerFloatingDiv h4 {font-size: 1.125rem;}
     .wdh-main{
         margin-left:240px;
         margin-right:40px;
