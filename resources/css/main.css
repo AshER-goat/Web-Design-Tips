@@ -105,7 +105,7 @@ nav .navLogo {font-size: 1.3125rem; /*21px*/}
 
 header .navLogo {
     font-size: 1.6875rem;/*27px*/
-    width: 250px;
+    width: 200px;
     margin-top: 0;
     padding: 5px 12px;
 }
@@ -333,7 +333,7 @@ footer a {
     .navbar-nav {display: inline-block;}
     header {margin-top: 30px;}
     header .navLogo {
-        width: 150px;
+        width: 200px;
         padding: 2px 8px;
     }
     #headerFloatingDiv {
@@ -342,6 +342,10 @@ footer a {
         top: -30px;
         left: 75%;
         padding: 2px;
+    }
+    #headerFloatingDiv p {
+        font-family: fancyFont; 
+        font-size: .8rem;
     }
     .wdh-main {
         margin-left:10px!important;
@@ -365,6 +369,10 @@ footer a {
     #headerFloatingDiv {
         width: 150px;
         height: auto;
+    }
+    #headerFloatingDiv p {
+        font-family: fancyFont; 
+        font-size: 1.125rem;
     }
     .wdh-main{
         margin-left:240px;
