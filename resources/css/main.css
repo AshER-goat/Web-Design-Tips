@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fancyFont;
-    src: url(C:/Users/Ashleigh/Desktop/Ash%20stuff/Not%20Art/Web_design_and_Game_design/Site%20Templates/Mock%20Websites/WebDesignTips/resources/fonts/AmaticSC-Bold.ttf);
+    src: url(./resources/fonts/AmaticSC-Bold.ttf);
 }
 
 html {font-size: 16px;}
@@ -265,7 +265,7 @@ footer a {
 /* Landing Page */
 
 #bgImg {
-    background-image: url('C:/Users/Ashleigh/Desktop/Ash%20stuff/Not%20Art/Web_design_and_Game_design/Site%20Templates/Mock%20Websites/WebDesignTips/resources/images/my%20art%20logo.png');
+    background-image: url('./resources/images/my%20art%20logo.png');
     position: relative;
     width: 50%;
     height: auto;
