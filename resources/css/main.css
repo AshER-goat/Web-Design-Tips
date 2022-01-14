@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fancyFont;
-    src: url(./resources/fonts/AmaticSC-Bold.ttf);
+    src: url(./fonts/AmaticSC-Bold.ttf);
 }
 
 html {font-size: 16px;}
