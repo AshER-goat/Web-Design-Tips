@@ -153,8 +153,7 @@
                     <h3>JavaScript tag location</h3>
                     <p>
                         Generally, JavaScript code can go inside of the document &lt;head> section in order to keep them contained and out of the main content of your HTML document.
-
-                            However, if your script needs to run at a certain point within a page’s layout — like when using document.write to generate content — you should put it at the point where it should be called, usually within the &lt;body> section.
+			However, if your script needs to run at a certain point within a page’s layout — like when using document.write to generate content — you should put it at the point where it should be called, usually within the &lt;body> section.
                     </p>
                     <p>
                         Scripts that are small or that run only on one page can work fine within an HTML file, but for larger scripts or scripts that will be used on many pages, it is not a very effective solution because including it can become unwieldy or difficult to read and understand. 
@@ -165,6 +164,11 @@
             <div class="container-fluid p-2">
 		<div class="container">
                     <h3>Semi-colons</h3>
+			<p>inline html style</p>
+			*helpful to add an extra semi-colon at the end of your styles incase you need to add more
+			<div class="code">
+				style="color: white<mark>;</mark>background-color: black<mark>;</mark>width: 25px<mark>;</mark>"
+			</div>
                 </div>
             </div>
 
