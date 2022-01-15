@@ -173,9 +173,9 @@
 			<p>again, it's helpful to add an extra semi-colon at the end of your styles in case you need to add more</p>
 			<div class="code">
 				.btn {<br />
-				    color: blue;<br />
-				    background-color: white;<br />
-				    width: 100px;<br />
+				    color: blue<mark>;</mark><br />
+				    background-color: white<mark>;</mark><br />
+				    width: 100px<mark>;</mark><br />
 				}
 			</div>
 			<h4>JavaScript</h4>
@@ -183,8 +183,8 @@
 			<div class="code">
 				let button = document.getElementById('blueButton');<br />
 				function main(){<br />
-					button.innerHTML = "Hola!";<br />
-					button.style.color = "blue;<br />
+					button.innerHTML = "Hola!"<mark>;</mark><br />
+					button.style.color = "blue<mark>;</mark><br />
 				}
 			</div>
                 </div>
@@ -193,6 +193,29 @@
             <div class="container-fluid p-2">
 		<div class="container">
                     <h3>Comments</h3>
+		    <h4>html</h4>
+		    <div class="code">
+			&lt;!-- --&rt;
+		    </div>
+		    <h4>css</h4>
+		    <div class="code">
+			A one-line and multi-line comments starts with /* and end with */
+		    </div>
+		    <h4>JavaScript</h4>
+		    <div class="code">
+			A one-line comment starts with the # or //<br />
+			A multi-line comment starts with /* and end with */
+		    </div>
+		    <h4>PHP</h4>
+		    <div class="code">
+			A one-line comment starts with the # or //<br />
+			A multi-line comment starts with /* and end with */
+		    </div>
+		    <h4>SQL</h4>
+		    <div class="code">
+			Single line comments start with --<br />
+			Multi-line comments start with /* and end with */ you can also use the /* */ to ignore part of a line(sigle line)
+		    </div>
                 </div>
             </div>
 
