@@ -47,6 +47,8 @@ p {
     text-justify: inter-word;
 }
 
+.border-3 {width: 10px;}
+
 hr { 
     padding: 0;
     border: none; 
