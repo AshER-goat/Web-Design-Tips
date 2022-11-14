@@ -56,7 +56,7 @@ header .navLogo {border: 1px solid black;}
 
 .nav-tabs a:hover {background-color: #eadc62;}
 
-mark {background-color: lightsteelblue;}
+mark {color: red;}
 
 .font_Schemes + hr { 
     border-top: 2px double black; 
