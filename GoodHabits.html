@@ -173,20 +173,20 @@
 			<h4>css</h4>
 			<p>again, it's helpful to add an extra semi-colon at the end of your styles in case you need to add more</p>
 			<div class="code">
-				.btn {<br />
-				    color: blue<mark>;</mark><br />
-				    background-color: white<mark>;</mark><br />
-				    width: 100px<mark>;</mark><br />
-				}
+			.btn {<br />
+			&nbsp;color: blue<mark>;</mark><br />
+			&nbsp;background-color: white<mark>;</mark><br />
+			&nbsp;width: 100px<mark>;</mark><br />
+			}
 			</div>
 			<h4>JavaScript</h4>
 			<p>Although it's not always need, it's good practice to add a semi-colon at the end of statements</p>
 			<div class="code">
-				let button = document.getElementById('blueButton');<br />
-				function main(){<br />
-					button.innerHTML = "Hola!"<mark>;</mark><br />
-					button.style.color = "blue<mark>;</mark><br />
-				}
+			let button = document.getElementById('blueButton');<br />
+			function main(){<br />
+			&nbsp;button.innerHTML = "Hola!"<mark>;</mark><br />
+			&nbsp;button.style.color = "blue<mark>;</mark><br />
+			}
 			</div>
                 </div>
             </div>
@@ -236,7 +236,34 @@
 
             <div class="container-fluid p-2">
 		<div class="container">
-                    <h3>Consistant classes/css for tags</h3>
+                    <h3>Consistant classes/css for tags/selectors</h3>
+		    <p>Shorten your CSS file by grouping specific tags/selectors that you'd like to manipulate together. <br />
+		    For example: instead of this</p>
+		    <div class="code">
+		    .btn {<br />
+		    &nbsp;color: blue;<br />
+		    &nbsp;background-color: white;<br />
+		    }<br />
+		    <br />
+		    nav {<br />
+		    &nbsp;background-color: white;<br />
+		    }<br />
+		    <br />
+		    #main {<br />
+		    &nbsp;background-color: white;<br />
+		    }
+		    </div>
+			
+		    <p>Do this</p>
+		    <div class="code">
+		    .btn {<br />
+		    &nbsp;color: blue;<br />
+		    }<br />
+		    <br />
+		    .btn, nav, #main {<br />
+		    &nbsp;background-color: white;<br />
+		    }
+		    </div>
                 </div>
             </div>
 
