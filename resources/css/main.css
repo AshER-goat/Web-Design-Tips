@@ -252,6 +252,7 @@ footer a {
 #color_Types .row .col {padding: 2px;}
 
 .swatches > div {
+    overflow-wrap: break-word;
     width: 125px;
     height: auto
 }
