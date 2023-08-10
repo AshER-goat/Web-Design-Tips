@@ -136,17 +136,16 @@
                         &emsp;&lt;link rel="preload" as="font" rel="stylesheet" href="EXTERNAL CSS STYLESHEET" &gt;<br>
 			<br>
 			<br>
-			<mark>giving external "link" stylesheets the "async" attribute helps speed</mark><br>
                         &emsp;&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"&gt;<br>
 			<br>
 			<br>
-			<mark>Scripts typically run faster in the body</mark><br>
+			<mark>Unless your page requires JS to run before the HTML page is read, scripts typically run faster in the body</mark><br>
 			&emsp;&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;/script&gt;<br>
 			<br>
 			<br>
                         &emsp;&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;<br>
                         &emsp;&lt;link rel="icon" type="image/png" href=<mark>"FOR TAB IMAGE"</mark> sizes="16x16"&gt;<br>
-                        &emsp;&lt;link rel="canonical" href=<mark>"CURRENT PREFFERED SITE PAGE YOU WANT INDEXED"</mark>&gt;<br>
+                        &emsp;&lt;link rel="canonical" href=<mark>"CURRENT PREFERRED SITE PAGE YOU WANT INDEXED"</mark>&gt;<br>
                         &emsp;&lt;style&gt;<br>
                         &emsp;&emsp;* {box-sizing: border-box}<br>
 			<mark>running local fonts makes the page speed run faster</mark><br>
@@ -157,35 +156,35 @@
   			&emsp;&emsp;&emsp;src: local("UbuntuCondensed-Regular"), local("UbuntuCondensed-Regular"), url(UbuntuCondensed-Regular.ttf) format("ttf");<br>
   			&emsp;&emsp;&emsp;font-display: swap;<br>
 			&emsp;&emsp;}<br>
-                        &emsp;&emsp;/* media queries */ <br>
+			<mark>media queries: in case you want to change specific properties of elements according to screen size</mark>
                         <br>
                         &emsp;&emsp;/* smartphones, iPhone, portrait 480x320 phones */<br>
-                        &emsp;&emsp;@media (min-width:320px)  { <br>
+                        &emsp;&emsp;@media (max-width:320px)  { <br>
                         <br>
                         &emsp;&emsp;}<br>
                         <br>
-                        &emsp;&emsp;/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */<br>
-                        &emsp;&emsp;@media (min-width:481px)  {  <br>
+                        &emsp;&emsp;/* Small devices (landscape phones, 576px and up) */<br>
+                        &emsp;&emsp;@media (min-width:576px)  {  <br>
                         <br>
                         &emsp;&emsp;}<br>
                         <br>
-                        &emsp;&emsp;/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */<br>
-                        &emsp;&emsp;@media (min-width:641px)  { <br>
+                        &emsp;&emsp;/* Medium devices (tablets, 768px and up) */<br>
+                        &emsp;&emsp;@media (min-width:768px)  { <br>
                         <br>
                         &emsp;&emsp;}<br>
                         <br>
-                        &emsp;&emsp;/* tablet, landscape iPad, lo-res laptops ands desktops */<br>
-                        &emsp;&emsp;@media (min-width:961px)  {  <br>
+			&emsp;&emsp;/* Large devices (desktops, 992px and up) */<br>
+                        &emsp;&emsp;@media (min-width:992px)  {  <br>
                         <br>
                         &emsp;&emsp;}<br>
                         <br>
-                        &emsp;&emsp;/* big landscape tablets, laptops, and desktops */<br>
-                        &emsp;&emsp;@media (min-width:1025px) { <br>
+			&emsp;&emsp;/* X-Large devices (large desktops, 1200px and up) */<br>
+                        &emsp;&emsp;@media (min-width:1200px) { <br>
                         <br>
                         &emsp;&emsp;}<br>
                         <br>
-                        &emsp;&emsp;/* hi-res laptops and desktops */<br>
-                        &emsp;&emsp;@media (min-width:1281px) { <br>
+			&emsp;&emsp;/* XX-Large devices (larger desktops, 1400px and up) */<br>
+                        &emsp;&emsp;@media (min-width:1400px) { <br>
                         <br>
                         &emsp;&emsp;}<br>
                         &emsp;&lt;/style&gt;<br>
